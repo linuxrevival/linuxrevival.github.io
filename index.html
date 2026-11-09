@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"/>
 <meta name="color-scheme" content="dark"/>
 <link rel="icon" href="data:,">
-<title>Game Ports — game-ports.nfo</title>
+<title>Linux Revival — linux-revival.nfo</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
@@ -43,7 +43,7 @@ a:hover{text-decoration:underline;text-underline-offset:3px}
 
 /* header block */
 .fileline{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;font-size:12.5px;color:var(--ink-faint);letter-spacing:.04em;padding-bottom:18px}
-.ascii{margin:6px 0 0;font-family:inherit;color:var(--bright);line-height:1.15;white-space:pre;overflow:hidden;font-size:clamp(5.5px,1.95vw,11.5px);text-align:center}
+.ascii{margin:6px 0 0;font-family:inherit;color:var(--bright);line-height:1.15;white-space:pre;overflow:hidden;font-size:clamp(4.8px,1.62vw,10px);text-align:center}
 .presents{text-align:center;color:var(--ink-dim);font-size:13px;letter-spacing:.35em;margin:18px 0 4px;text-transform:uppercase}
 .tagline{text-align:center;color:var(--ink-dim);font-size:14px;margin:0}
 .nav{display:flex;flex-wrap:wrap;justify-content:center;gap:6px 4px;margin-top:22px;font-size:13.5px}
@@ -119,92 +119,38 @@ ul.chk b{color:var(--bright);font-weight:600}
 
   <!-- ================= HEADER ================= -->
   <div class="fileline">
-    <span>FILE: game-ports.nfo</span>
+    <span>FILE: linux-revival.nfo</span>
     <span>1 PORT &middot; IN DEVELOPMENT</span>
   </div>
 
-<pre class="ascii" aria-hidden="true">   ____    _    __  __ _____   ____   ___  ____ _____ ____
-  / ___|  / \  |  \/  | ____| |  _ \ / _ \|  _ \_   _/ ___|
- | |  _  / _ \ | |\/| |  _|   | |_) | | | | |_) || | \___ \
- | |_| |/ ___ \| |  | | |___  |  __/| |_| |  _ &lt; | |  ___) |
-  \____/_/   \_\_|  |_|_____| |_|    \___/|_| \_\|_| |____/</pre>
+<pre class="ascii" aria-hidden="true"> _     ___ _   _ _   ___  __  ____  _______     _______     ___    _
+| |   |_ _| \ | | | | \ \/ / |  _ \| ____\ \   / /_ _\ \   / / \  | |
+| |    | ||  \| | | | |\  /  | |_) |  _|  \ \ / / | | \ \ / / _ \ | |
+| |___ | || |\  | |_| |/  \  |  _ &lt;| |___  \ V /  | |  \ V / ___ \| |___
+|_____|___|_| \_|\___//_/\_\ |_| \_\_____|  \_/  |___|  \_/_/   \_\_____/</pre>
 
   <p class="presents">p r e s e n t s</p>
   <p class="tagline">Source ports of old games, rebuilt natively for Linux.<br>
   Faithful to the original first. Improved second.</p>
 
   <nav class="nav" aria-label="Contents">
-    <span class="b">[</span><a href="#info">RELEASE INFO</a><span class="b">]</span>
-    <span class="b">[</span><a href="#about">ABOUT</a><span class="b">]</span>
-    <span class="b">[</span><a href="#status">STATUS</a><span class="b">]</span>
-    <span class="b">[</span><a href="#install">RUN IT</a><span class="b">]</span>
+    <span class="b">[</span><a href="#info">GAME DETAILS</a><span class="b">]</span>
   </nav>
 
-  <!-- ================= RELEASE INFO ================= -->
+  <!-- ================= GAME DETAILS ================= -->
   <div class="sep-label"><span>&sect; 01</span></div>
   <section id="info">
-    <h2><span class="no">01 /</span> Release info &mdash; Mega-lo-Mania</h2>
+    <h2><span class="no">01 /</span> Game details &mdash; Mega-lo-Mania</h2>
     <div class="info">
       <div class="irow"><span class="k">Title</span><span class="dots"></span><span class="v">Mega-lo-Mania &mdash; native Linux port</span></div>
-      <div class="irow"><span class="k">Original game</span><span class="dots"></span><span class="v">Sensible Software, 1991 (Amiga)</span></div>
-      <div class="irow"><span class="k">Porting from</span><span class="dots"></span><span class="v">DOS version &middot; MEGA.EXE</span></div>
-      <div class="irow"><span class="k">Genre</span><span class="dots"></span><span class="v">Real-time strategy / god game</span></div>
-      <div class="irow"><span class="k">Stack</span><span class="dots"></span><span class="v">C11 + SDL2 &middot; native Linux, no emulator</span></div>
-      <div class="irow"><span class="k">Distribution</span><span class="dots"></span><span class="v">Bring your own game files</span></div>
-      <div class="irow"><span class="k">Status</span><span class="dots"></span><span class="v">In progress &mdash; milestone 3 of 5</span></div>
+      <div class="irow"><span class="k">Original game</span><span class="dots"></span><span class="v">Sensible Software</span></div>
+      <div class="irow"><span class="k">Year</span><span class="dots"></span><span class="v">1991</span></div>
+      <div class="irow"><span class="k">Platform / Genre</span><span class="dots"></span><span class="v">Amiga &middot; Real-time strategy / god game</span></div>
       <div class="irow"><span class="k">Repo</span><span class="dots"></span><span class="v"><a href="https://github.com/nordicnode/mega-lo-mania-port" target="_blank" rel="noreferrer">github.com/nordicnode/mega-lo-mania-port</a></span></div>
     </div>
     <div class="progress">
-      <span class="bar">[&#9619;&#9619;&#9619;&#9617;&#9617;]</span> Milestones: 3 of 5 reached
-      <div class="names">M1 Formats &middot; M2 Payloads &middot; M3 State 0 &mdash; done &nbsp;/&nbsp; M4 States 1&ndash;7 &middot; M5 Playable &mdash; to go</div>
+      <span class="bar">[&#9619;&#9619;&#9619;&#9619;&#9619;&#9619;&#9619;&#9619;&#9619;&#9619;&#9619;&#9617;&#9617;&#9617;&#9617;&#9617;&#9617;&#9617;&#9617;&#9617;]</span> Port completion &mdash; roughly 55%
     </div>
-  </section>
-
-  <!-- ================= ABOUT ================= -->
-  <div class="sep-label"><span>&sect; 02</span></div>
-  <section id="about">
-    <h2><span class="no">02 /</span> About</h2>
-    <p>Mega-lo-Mania is an island-conquest strategy game: grow a tribe, race through nine epochs from stone age to 2001, and conquer the island sector by sector before you get raided. 28 islands, four tribes. I played it on the Amiga 500 as a kid.</p>
-    <p>This port rebuilds it from the original binary so it runs natively on Linux — no emulator. The behaviour is recovered from the original and checked against it, so what survives is the game itself, not just a copy of the files.</p>
-  </section>
-
-  <!-- ================= STATUS ================= -->
-  <div class="sep-label"><span>&sect; 03</span></div>
-  <section id="status">
-    <h2><span class="no">03 /</span> Status</h2>
-
-    <h3 class="sub">What works</h3>
-    <ul class="chk">
-      <li><span class="mark ok">[DONE]</span><span><b>All game data decoded</b> — all 92 containers decode exactly; images, voice lines and screens identified.</span></li>
-      <li><span class="mark ok">[DONE]</span><span><b>First screen running</b> — the player-select screen draws and animates through the original’s own frame loop.</span></li>
-      <li><span class="mark ok">[DONE]</span><span><b>Original behaviour recovered</b> — the game’s random number generator and the commanders’ blink timing are ported and checked against the original.</span></li>
-    </ul>
-
-    <h3 class="sub">What’s left</h3>
-    <ul class="chk">
-      <li><span class="mark part">[PART]</span><span><b>Second screen (setup)</b> — mostly mapped; two pieces still to recover.</span></li>
-      <li><span class="mark no">[&nbsp;&nbsp;&nbsp;&nbsp;]</span><span><b>Remaining screens</b> — states 2&ndash;7 not yet ported.</span></li>
-      <li><span class="mark no">[&nbsp;&nbsp;&nbsp;&nbsp;]</span><span><b>Small details</b> — per-layer cursors and page-flip animation on the first screen.</span></li>
-    </ul>
-  </section>
-
-  <!-- ================= RUN IT ================= -->
-  <div class="sep-label"><span>&sect; 04</span></div>
-  <section id="install">
-    <h2><span class="no">04 /</span> Run it</h2>
-    <p>You need your own original game files — the port ships none. <span class="mono">make check</span> verifies the port still matches the original.</p>
-    <div class="code">
-      <div class="code-head">Terminal</div>
-<pre>$ git clone https://github.com/nordicnode/mega-lo-mania-port
-$ cd mega-lo-mania-port
-
-<span class="cm"># Add your own original game files
-# (none are included in the repo)</span>
-
-$ make check        <span class="cm"># the faithfulness gates</span>
-$ ./megalomania --run</pre>
-    </div>
-    <p class="small dim">Full details, tech notes and the dev log are in the repo: <a href="https://github.com/nordicnode/mega-lo-mania-port" target="_blank" rel="noreferrer">github.com/nordicnode/mega-lo-mania-port</a></p>
   </section>
 
   <!-- ================= MAINTAINER ================= -->
@@ -258,7 +204,6 @@ What changed, and what it unblocked.</pre>
   </div>
 
   <!-- ================= FOOTER ================= -->
-  <p class="footline">All ports are bring-your-own-game-files. No original code or data is shipped.</p>
   <p class="eof">&mdash; EOF &mdash;</p>
 
 </div></div>
