@@ -86,6 +86,11 @@ p:last-child{margin-bottom:0}
 .progress .bar{color:var(--accent);letter-spacing:.15em}
 .progress .names{margin-top:4px;font-size:12.5px;color:var(--ink-faint)}
 
+/* working list */
+ul.working{margin:18px 0 0;padding-left:20px;font-size:14.5px;color:var(--ink)}
+ul.working li{margin:0 0 4px}
+ul.working li:last-child{margin-bottom:0}
+
 /* status lists */
 ul.chk{list-style:none;margin:0;padding:0;display:grid;gap:9px;font-size:14.5px}
 ul.chk li{display:grid;grid-template-columns:auto 1fr;gap:12px;color:var(--ink-dim)}
@@ -153,6 +158,13 @@ ul.chk b{color:var(--bright);font-weight:600}
     <div class="progress">
       <span class="bar">[&#9619;&#9619;&#9619;&#9619;&#9619;&#9619;&#9619;&#9619;&#9619;&#9619;&#9619;&#9619;&#9617;&#9617;&#9617;&#9617;&#9617;&#9617;&#9617;&#9617;]</span> Port completion &mdash; roughly 60%
     </div>
+    <ul class="working">
+      <li>All 92 game data containers decode cleanly</li>
+      <li>Player select screen draws through the real frame loop, portraits blink on the original's schedule</li>
+      <li>Setup screen draws: sunrise, badges, island plates, flag, menu text</li>
+      <li>Click a portrait on player select to enter the setup screen</li>
+      <li>38 voice lines decoded, 43.7 seconds of speech</li>
+    </ul>
   </section>
 
   <!-- ================= MAINTAINER ================= -->
